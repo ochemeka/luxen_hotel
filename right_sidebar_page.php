@@ -1,0 +1,225 @@
+<?php require_once("includes/session.php"); ?>
+<?php require_once("includes/connection.php"); ?>
+<?php require_once("includes/functions.php"); ?>
+<?php $pagetitle= 'Right_Sidebar_Page' ; ?>
+<?php include("includes/header2.php"); ?>
+		<h1 style="color:#FFFFFF" >RIGHT SIDEBAR</h1>
+	</div>
+	<div class="content"><!-- Content Section -->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9 col-sm-9">
+					<div class="about-slider margint40">
+						<div class="col-lg-12"><!-- Slider -->
+							<div class="flexslider">
+								<ul class="slides">
+									<li><img alt="Slider 1" class="img-responsive" src="temp/slider-2.jpg" /></li>
+									<li><img alt="Slider 1" class="img-responsive" src="temp/slider-3.jpg" /></li>
+									<li><img alt="Slider 3" class="img-responsive" src="temp/slider-1.jpg" /></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="about-info clearfix">
+						<div class="col-lg-6"><!-- About Text -->
+							<h3>ABOUT US</h3>
+							<p class="margint30">Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur. Aenean lacinia bibendum nulla sed consectetur. </p>
+							<p>Lorem ipsum dolor sit amet, consectetur.Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectur. Lorem ipsum dolor sit amet, consectetur.Aeum dolor sit amet, consectetur.</p>
+						</div>
+						<div class="col-lg-6 margint80"><!-- About Accordion -->
+							<div id="accordion">
+								<div class="panel panel-luxen active-panel">
+									<div class="panel-style active">
+										<h4><span class="plus-box"><i class="fa fa-angle-up"></i></span> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">SOME GREAT EXAMPLE</a></h4>
+									</div>
+									<div id="collapse1" class="collapse collapse-luxen in">
+										<div class="padt20">    	
+											<p>Consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Lnia bibendum nulla sedr.Aeum dolor sit amet, consectetur</p>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-luxen">
+									<div class="panel-style">
+									<h4><span class="plus-box"><i class="fa fa-angle-down"></i></span> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">IT'S ACCORDION TAB</a></h4>
+									</div>
+									<div id="collapse2" class="collapse collapse-luxen">
+										<div class="padt20">    	
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo veniam voluptas repudiandae consectetur est doloribus esse maiores commodi minima ut dignissimos suscipit atre soluta beatae quos molestiae quae velit sed dolores commodi sequi tempora autem sint non obcaecati illo aperiam blanditiis laudantium eius magni pariatur officiis!</p>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-luxen">
+									<div class="panel-style">
+									<h4><span class="plus-box"><i class="fa fa-angle-down"></i></span> <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">MORE INFO IS HERE</a></h4>
+									</div>
+									<div id="collapse3" class="collapse collapse-luxen">
+										<div class="padt20">    	
+											<p>Lorem ipsum dolor sit amet, consectetur adipisicing eo non iure culpa adipisci iste suscipit consequuntur ea id quibusdam esse quia voluptates mollitia quasi itaque assumenda vitae optio eaque qui alias dolorum voluptatibus explicabo.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-12"><!-- About Text -->
+							<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur.Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur.</p>
+							
+							<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur.Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur.Aenean lacinia bibenPraesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur.Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur.Aeum dolor sit amet, consectetur.</p>
+							
+							<p>Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur.Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur.Aenean lacinia bibenPraesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur.Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur.Aeum dolor sit amet, consectetur.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-sm-3 margint40"><!-- Slider -->
+					<div class="luxen-widget news-widget">
+						<div class="title">
+							<h5>RECENT NEWS</h5>
+						</div>
+						<ul class="sidebar-recent">
+							<li class="clearfix">
+								<h6><a href="#">News from us from now</a></h6>
+								<div class="pull-left blg-img margint20">
+									<img src="temp/sidebar-news-image-1.jpg" class="img-responsive" alt="">
+								</div>
+								<div class="pull-left blg-txt">
+									<p>Donec ullamcorper nulla non metus auctor Nulla vitae elit libero, a pharetra augue <a class="active-color" href="#">[...]</a></p>
+								</div>
+							</li>
+							<li class="clearfix">
+								<h6><a href="#">Its Summary for news</a></h6>
+								<div class="pull-left blg-img margint20">
+									<img src="temp/sidebar-news-image-2.jpg" class="img-responsive" alt="">
+								</div>
+								<div class="pull-left blg-txt">
+									<p>Donec ullamcorper nulla non metus auctor Nulla vitae elit libero, a pharetra augue <a class="active-color" href="#">[...]</a></p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<div class="luxen-widget news-widget">
+						<div class="title">
+							<h5>HOTEL INFORMATION</h5>
+						</div>
+						<p>Curabitur blandit tempus porttitor. Nulla vitae elit libero, a pharetra augue. Lorem ipsumero, a pharetra augue. Lorem ipsum dolor sit amet, consectedui.</p>
+					</div>
+					<div class="luxen-widget news-widget">
+						<div class="title">
+							<h5>CONTACT</h5>
+						</div>
+						<ul class="footer-links">
+							<li><p><i class="fa fa-map-marker"></i> Lorem ipsum dolor sit amet lorem Victoria 8011 Australia </p></li>
+							<li><p><i class="fa fa-phone"></i> +61 3 8376 6284 </p></li>
+							<li><p><i class="fa fa-envelope"></i> info@2035themes.com</p></li>
+						</ul>
+					</div>
+					<div class="luxen-widget news-widget">
+						<div class="title">
+							<h5>SOCIAL MEDIA</h5>
+						</div>
+						<ul class="social-links">
+							<li><a href="http://facebook.com/2035themes"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="http://twitter.com/2035themes"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="http://vine.com/2035themes"><i class="fa fa-vine"></i></a></li>
+							<li><a href="http://foursquare.com/2035themes"><i class="fa fa-foursquare"></i></a></li>
+							<li><a href="http://instagram.com/2035themes"><i class="fa fa-instagram"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer margint40"><!-- Footer Section -->
+		<!--<div class="main-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-2 col-sm-2 footer-logo">
+						<img alt="Logo" src="img/logo.png" class="img-responsive" >
+					</div>
+					<div class="col-lg-10 col-sm-10">
+						<div class="col-lg-3 col-sm-3">
+							<h6>TOUCH WITH US</h6>
+							<ul class="footer-links">
+								<li><a href="#">Facebook</a></li>
+								<li><a href="#">Twitter</a></li>
+								<li><a href="#">Google +</a></li>
+								<li><a href="#">otels.com</a></li>
+								<li><a href="#">Tripadvisor</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3 col-sm-3">
+							<h6>ABOUT LUXEN</h6>
+							<ul class="footer-links">
+								<li><a href="404.php">Error Page</a></li>
+								<li><a href="about.php">About</a></li>
+								<li><a href="blog.php">Blog</a></li>
+								<li><a href="blog-details.php">Blog Single</a></li>
+								<li><a href="category-grid.php">Category Grid</a></li>
+								<li><a href="category-list.php">Category List</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3 col-sm-3">
+							<h6>PAGES SITE</h6>
+							<ul class="footer-links">
+								<li><a href="contact.php">Contact</a></li>
+								<li><a href="gallery.php">Gallery</a></li>
+								<li><a href="index-full-screen.php">Home Full Screen</a></li>
+								<li><a href="left-sidebar-page.php">Left Sidebar Page</a></li>
+								<li><a href="right-sidebar-page.php">Right Sidebar Page</a></li>
+								<li><a href="room-single.php">Room Single</a></li>
+								<li><a href="under-construction.php">Under Construction</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3 col-sm-3">
+							<h6>CONTACT</h6>
+								<ul class="footer-links">
+									<li><p><i class="fa fa-map-marker"></i>124 Benin-Sapele Road. Benin City, Edo State</p></li>
+									<li><p><i class="fa fa-phone"></i> +234 6 743 2218 </p></li>
+									<li><p><i class="fa fa-envelope"></i> <a href="mailto:info@2035themes.com">info@2035themes.com</a></p></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>-->
+			<div class="pre-footer">
+				<div class="container">
+					<div class="row">
+						<div class="pull-left"><p>© LUXEN HOTELS 2018</p></div>
+						<div class="pull-right">
+						<a href="http://www.melvinmultitech.com"><h5 style="color:#9966CC"><strong>Designed by Melvin Multi-Tech Ltd</strong></h5></a>
+						
+							<!--<ul>
+								<li><p>CONNECT WITH US</p></li>
+								<li><a><img alt="Facebook" src="temp/orkut.png" ></a></li>
+								<li><a><img alt="Tripadvisor" src="temp/tripadvisor.png" ></a></li>
+								<li><a><img alt="Yelp" src="temp/hyves.png" ></a></li>
+								<li><a><img alt="Twitter" src="temp/skype.png" ></a></li>
+							</ul>-->
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- JS FILES -->
+<script src="js/vendor/jquery-1.11.1.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/retina-1.1.0.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/superfish.pack.1.4.1.js"></script>
+<script src="js/jquery.prettyPhoto.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/selectordie.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/jquery.parallax-1.1.3.js"></script>
+<script src="js/main.js"></script>
+<!--
+<script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src='//www.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+-->
+</body>
+</php>

@@ -1,0 +1,10 @@
+$arrival = mysql_prep($_POST['arrival']);
+$departure = mysql_prep($_POST['departure']);
+
+
+$arr_explode = explode('-',$arrival);
+$dept_explode = explode('-',$departure);
+$arrival = $arr_explode[0]."-".$arr_explode[1]."-".$arr_explode[2];
+$departure =$dept_explode[0]."-".$dept_explode[1]."-".$dept_explode[2];
+$difference  = timeDiff($arrival,$departure);
+$days = abs(floor($difference/86400));
